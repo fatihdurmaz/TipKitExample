@@ -1,8 +1,8 @@
 # TipKitExample
 
-![Swift](https://img.shields.io/badge/Swift-5.9%205.8%205.7-orange.svg)
-![Swift](https://img.shields.io/badge/iOS-17-red.svg)
+![Swift](https://img.shields.io/badge/Swift-5.9%20%7C%205.8%20%7C%205.7-orange.svg)
 ![Platform](https://img.shields.io/badge/Platform-iOS%20-lightgrey.svg)
+![Swift](https://img.shields.io/badge/iOS-17-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 This tutorial teaches how to use the TipKit Framework for SwiftUI. The TipKit Framework allows you to display tips that help users explore features in your application.
