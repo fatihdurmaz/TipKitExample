@@ -1,7 +1,7 @@
 # TipKitExample Struct
 
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-iOS%20%7C-lightgrey.svg)
+![Platform](https://img.shields.io/badge/Platform-iOS%20-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Bu tutorial, SwiftUI için TipKit Framework'ü nasıl kullanacağınızı öğretir. TipKit Framework, kullanıcıların uygulamanızdaki özellikleri keşfetmesine yardımcı olacak ipuçlarını görüntülemenizi sağlar.
