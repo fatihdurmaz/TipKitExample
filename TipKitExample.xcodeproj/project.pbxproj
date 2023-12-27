@@ -11,6 +11,9 @@
 		DE6F53212B3A068B00916D2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F53202B3A068B00916D2E /* ContentView.swift */; };
 		DE6F53232B3A068C00916D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6F53222B3A068C00916D2E /* Assets.xcassets */; };
 		DE6F53262B3A068C00916D2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6F53252B3A068C00916D2E /* Preview Assets.xcassets */; };
+		DE6F532D2B3A06AA00916D2E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F532C2B3A06AA00916D2E /* User.swift */; };
+		DE6F532F2B3A13B200916D2E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F532E2B3A13B200916D2E /* UserViewModel.swift */; };
+		DE6F53322B3A2D5800916D2E /* SwiftUISnackbar in Frameworks */ = {isa = PBXBuildFile; productRef = DE6F53312B3A2D5800916D2E /* SwiftUISnackbar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,8 @@
 		DE6F53202B3A068B00916D2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE6F53222B3A068C00916D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6F53252B3A068C00916D2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE6F532C2B3A06AA00916D2E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DE6F532E2B3A13B200916D2E /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6F53322B3A2D5800916D2E /* SwiftUISnackbar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +59,8 @@
 			children = (
 				DE6F531E2B3A068B00916D2E /* TipKitExampleApp.swift */,
 				DE6F53202B3A068B00916D2E /* ContentView.swift */,
+				DE6F532C2B3A06AA00916D2E /* User.swift */,
+				DE6F532E2B3A13B200916D2E /* UserViewModel.swift */,
 				DE6F53222B3A068C00916D2E /* Assets.xcassets */,
 				DE6F53242B3A068C00916D2E /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = TipKitExample;
+			packageProductDependencies = (
+				DE6F53312B3A2D5800916D2E /* SwiftUISnackbar */,
+			);
 			productName = TipKitExample;
 			productReference = DE6F531B2B3A068B00916D2E /* TipKitExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = DE6F53122B3A068B00916D2E;
+			packageReferences = (
+				DE6F53302B3A2D5800916D2E /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */,
+			);
 			productRefGroup = DE6F531C2B3A068B00916D2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6F53212B3A068B00916D2E /* ContentView.swift in Sources */,
+				DE6F532F2B3A13B200916D2E /* UserViewModel.swift in Sources */,
 				DE6F531F2B3A068B00916D2E /* TipKitExampleApp.swift in Sources */,
+				DE6F532D2B3A06AA00916D2E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE6F53302B3A2D5800916D2E /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zaniluca/SwiftUISnackbar";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE6F53312B3A2D5800916D2E /* SwiftUISnackbar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE6F53302B3A2D5800916D2E /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */;
+			productName = SwiftUISnackbar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE6F53132B3A068B00916D2E /* Project object */;
 }
