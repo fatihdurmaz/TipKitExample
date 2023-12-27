@@ -8,10 +8,6 @@ Bu tutorial, SwiftUI için TipKit Framework'ü nasıl kullanacağınızı öğre
 ## Kullanım
 TipKit Framework, SwiftUI'da ipuçlarını görüntülemek için bir API sağlar. İpuçları, kullanıcıların uygulamanızdaki yeni özellikleri öğrenmelerine ve mevcut özellikleri daha iyi anlamalarına yardımcı olabilir.
 
-### Yükleme
-
-import TipKit
-
 ### Tip Struct
 
 ```swift
