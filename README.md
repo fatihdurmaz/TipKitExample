@@ -1,6 +1,7 @@
 # TipKitExample
 
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
+![Swift](https://img.shields.io/badge/iOS-17-red.svg)
 ![Platform](https://img.shields.io/badge/Platform-iOS%20-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
